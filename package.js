@@ -21,7 +21,6 @@ Package.onUse(function(api) {
   api.addFiles('components/aboutPage/aboutPage.html');
   api.addFiles('components/aboutPage/aboutPage.js');
   api.addFiles('components/aboutPage/aboutPage.less');
-  api.addFiles('components/aboutPage/assets/abigail.watson.jpg', 'client', {isAsset: true});
 
   api.addFiles('components/eulaPage/eulaPage.html');
   api.addFiles('components/eulaPage/eulaPage.js');
