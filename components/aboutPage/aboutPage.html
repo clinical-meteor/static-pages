@@ -1,0 +1,40 @@
+<template name="aboutPage">
+  <div id="aboutPage" class="padded page">
+    <div class="marketingHeaderTransparency" style="{{getBackgroundColor 'colorB'}}"></div>
+    <div class="marketingHeader">
+      <h2>About</h2>
+    </div>
+    <div id="aboutText">
+      <hr class="no-lower-margin">
+      <h6>Licensing</h6>
+      <p>This application is open sourced under the MIT license, and is based off of the Meteor Todos example.  While the code is open-sourced, all branding and marketing content is copyrighted and trademarked.  If you wish to fork the project, please replace all images and text.</p>
+
+      <hr class="no-lower-margin">
+      <h6>FDA Regulatory Approval</h6>
+      <p>In addition to being open-sourced, this application is written with Validation and Verification tests, as per FDA regulation 21CFR820.75.  Please see the <a href="http://starrynight.meteor.com/" style="{{getLinkStyle}}">StarryNight</a> utility for more information on writing and running Validatoin and Verification tests, and generating the necessary documentation for the FDA regulatory review process.</p>
+
+      <hr class="no-lower-margin">
+      <h6>HIPAA Compliance</h6>
+      <p>For HIPAA compliance, this app also supports HIPAA Audit Logging.  Please see the <a href="https://github.com/clinical-meteor/hipaa-utility" style="{{getLinkStyle}}">HIPAA Audit Utility</a> for more information.</p>
+
+      <hr class="no-lower-margin">
+      <h6>HL7 Conformance Statement</h6>
+      <p>Lastly, this application is written using HL7 FHIR resource types.  Please see the <a href="https://www.hl7.org/fhir/resourcelist.html" style="{{getLinkStyle}}">Resource List</a> for more details on specific object schemas.</p>
+
+      <hr class="no-lower-margin">
+      <h6>Author</h6>
+      <p>
+        Abigail Watson is a graduate of the University of Chicago, and holds a B.A. in the History, Philosophy, and Social Studies of Science and Medicine.  Her focus was in bioinformatics, and she later worked in the healthcare IT industry for 10 years supporting EMR systems before they were cool.  She now runs her own design studio and creates clinical applications like this one.
+      </p>
+
+      <div class="fullwidth centered">
+        <img class="profileImage img-circle" src="/packages/symptomatic_static-pages/components/aboutPage/assets/abigail.watson.jpg" alt="" />
+        <br>
+        <h3>Abigail Watson</h3>
+        <h5>Clinical Applications Architect</h5>
+      </div>
+
+    </div>
+
+  </div>
+</template>
