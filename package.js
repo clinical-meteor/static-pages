@@ -1,7 +1,7 @@
 Package.describe({
   name: 'clinical:static-pages',
   summary: 'Add glossary, about, eula, and privacy pages to your ClinicalFramework app.',
-  version: '1.0.10',
+  version: '1.0.11',
   git: 'http://github.com/awatson1978/symptomatic-static-pages.git'
 });
 
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     'templating',
     'clinical:router@2.0.17',
     'clinical:glass-ui@1.3.5',
-    'clinical:theming@0.4.2',
+    'clinical:theming@0.4.3',
     'grove:less@0.1.1',
     'session',
     'reactive-dict'
