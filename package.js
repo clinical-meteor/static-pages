@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     'templating',
     'clinical:router@2.0.17',
     'clinical:glass-ui@1.3.5',
-    'clinical:theming@0.4.0',
+    'clinical:theming@0.4.2',
     'grove:less@0.1.1',
     'session',
     'reactive-dict'
