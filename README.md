@@ -1,4 +1,4 @@
-##symptomatic-static-pages
+##clinical:static-pages
 
 About, eula, and privacy pages for Symptomatic.io apps.
 
@@ -23,4 +23,4 @@ Static pages themed for Symptomatic.io.
 =========================
 ####Licensing  
 
-Copyright 2016; All rights reserved.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
