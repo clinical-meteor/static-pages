@@ -1,12 +1,12 @@
 Package.describe({
   name: 'clinical:static-pages',
   summary: 'Add glossary, about, eula, and privacy pages to your ClinicalFramework app.',
-  version: '1.0.5',
+  version: '1.0.6',
   git: 'http://github.com/awatson1978/symptomatic-static-pages.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.1.0.3');
 
   api.use([
     'meteor-platform',
