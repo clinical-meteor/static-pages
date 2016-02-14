@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     'meteor-platform',
     'templating',
     'clinical:router@2.0.17',
-    'clinical:glass-ui@1.3.5',
+    'clinical:glass-ui@1.3.9',
     'clinical:theming@0.4.3',
     'grove:less@0.1.1',
     'session',
