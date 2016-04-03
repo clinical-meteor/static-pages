@@ -1,7 +1,7 @@
 Package.describe({
   name: 'clinical:static-pages',
   summary: 'Add glossary, about, eula, and privacy pages to your ClinicalFramework app.',
-  version: '1.1.0',
+  version: '1.2.0',
   git: 'http://github.com/clinical-meteor/static-pages.git'
 });
 
@@ -38,11 +38,6 @@ Package.onUse(function (api) {
   api.addFiles('components/marketingPage/marketingPage.less');
   api.addFiles('components/marketingPage/marketingPage.js');
   api.addFiles('components/marketingPage/marketingPage.html');
-
-  api.addFiles('components/faqPage/faqPage.less');
-  api.addFiles('components/faqPage/faqPage.js');
-  api.addFiles('components/faqPage/faqPage.html');
-
 
   api.addFiles('components/marketingPage/assets/device-ipad-hipaa-log.png', 'client', {
     isAsset: true
