@@ -1,4 +1,4 @@
-describe('clinical:error-pages', function () {
+describe('clinical:static-pages', function () {
   var server = meteor();
   var client = browser(server);
 

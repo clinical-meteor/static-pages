@@ -2,21 +2,21 @@ Package.describe({
   name: 'clinical:static-pages',
   summary: 'Add glossary, about, eula, and privacy pages to your ClinicalFramework app.',
   version: '1.1.0',
-  git: 'http://github.com/awatson1978/symptomatic-static-pages.git'
+  git: 'http://github.com/clinical-meteor/static-pages.git'
 });
 
-Package.onUse(function(api) {
+Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
 
   api.use([
     'meteor-platform',
     'templating',
+    'session',
+    'reactive-dict',
     'clinical:router@2.0.17',
     'clinical:glass-ui@1.3.9',
-    'clinical:theming@0.4.3',
-    'grove:less@0.1.1',
-    'session',
-    'reactive-dict'
+    'clinical:theming@0.4.9',
+    'grove:less@0.1.1'
   ]);
 
   api.addFiles('components/aboutPage/aboutPage.html');
@@ -39,15 +39,30 @@ Package.onUse(function(api) {
   api.addFiles('components/marketingPage/marketingPage.js');
   api.addFiles('components/marketingPage/marketingPage.html');
 
-  api.addFiles('components/marketingPage/assets/device-ipad-hipaa-log.png', 'client', {isAsset: true});
-  api.addFiles('components/marketingPage/assets/device-ipad.png', 'client', {isAsset: true});
-  api.addFiles('components/marketingPage/assets/device-macbook-formbuilder.png', 'client', {isAsset: true});
-  api.addFiles('components/marketingPage/assets/device-multi.png', 'client', {isAsset: true});
-  api.addFiles('components/marketingPage/assets/device-thunderbolt.png', 'client', {isAsset: true});
+  api.addFiles('components/faqPage/faqPage.less');
+  api.addFiles('components/faqPage/faqPage.js');
+  api.addFiles('components/faqPage/faqPage.html');
+
+
+  api.addFiles('components/marketingPage/assets/device-ipad-hipaa-log.png', 'client', {
+    isAsset: true
+  });
+  api.addFiles('components/marketingPage/assets/device-ipad.png', 'client', {
+    isAsset: true
+  });
+  api.addFiles('components/marketingPage/assets/device-macbook-formbuilder.png', 'client', {
+    isAsset: true
+  });
+  api.addFiles('components/marketingPage/assets/device-multi.png', 'client', {
+    isAsset: true
+  });
+  api.addFiles('components/marketingPage/assets/device-thunderbolt.png', 'client', {
+    isAsset: true
+  });
 
 });
 
 
-Package.onTest(function(api) {
+Package.onTest(function (api) {
   api.use('tinytest');
 });
