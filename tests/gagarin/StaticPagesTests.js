@@ -7,7 +7,6 @@ describe('clinical:static-pages', function () {
 
       expect(Template.aboutPage).to.exist();
       expect(Template.eulaPage).to.exist();
-      expect(Template.faqPage).to.exist();
       expect(Template.marketingPage).to.exist();
       expect(Template.privacyPage).to.exist();
       expect(Template.supportPage).to.exist();
