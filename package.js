@@ -39,21 +39,11 @@ Package.onUse(function (api) {
   api.addFiles('components/marketingPage/marketingPage.js');
   api.addFiles('components/marketingPage/marketingPage.html');
 
-  api.addFiles('components/marketingPage/assets/device-ipad-hipaa-log.png', 'client', {
-    isAsset: true
-  });
-  api.addFiles('components/marketingPage/assets/device-ipad.png', 'client', {
-    isAsset: true
-  });
-  api.addFiles('components/marketingPage/assets/device-macbook-formbuilder.png', 'client', {
-    isAsset: true
-  });
-  api.addFiles('components/marketingPage/assets/device-multi.png', 'client', {
-    isAsset: true
-  });
-  api.addFiles('components/marketingPage/assets/device-thunderbolt.png', 'client', {
-    isAsset: true
-  });
+  api.addFiles('components/marketingPage/assets/device-ipad-hipaa-log.png', 'client', {isAsset: true});
+  api.addFiles('components/marketingPage/assets/device-ipad.png', 'client', {isAsset: true});
+  api.addFiles('components/marketingPage/assets/device-macbook-formbuilder.png', 'client', {isAsset: true});
+  api.addFiles('components/marketingPage/assets/device-multi.png', 'client', {isAsset: true});
+  api.addFiles('components/marketingPage/assets/device-thunderbolt.png', 'client', {isAsset: true});
 
 });
 
